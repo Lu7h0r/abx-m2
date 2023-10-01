@@ -1,0 +1,74 @@
+*
+!/.gitignore
+!/.magento.app.yaml
+!/.magento.env.yaml*
+!/.magento
+!/.magento/**
+/.magento/local
+!/app
+!/app/*/
+!/app/code/**
+!/app/design/**
+!/app/etc/config.php
+!/app/i18n/**
+!/build_options.ini
+!/composer.json
+!/composer.lock
+!/magento-vars.php
+!/m2-hotfixes
+!/m2-hotfixes/**
+!/php.ini
+!/update
+!/update/.htaccess
+!/README.md
+!/op-exclude.txt
+
+!/dev
+!/dev/**
+/dev/tests
+/dev/tools
+
+# WARP FRAMEWORK
+!/warp
+!/.warp
+!/.warp/**
+/.env
+/docker-compose-warp.yml
+/docker-compose-warp-mac.yml
+/docker-sync.yml
+!/.env.sample
+!/docker-compose-warp.yml.sample
+!/docker-compose-warp-mac.yml.sample
+!/docker-sync.yml.sample
+/.self-update-warp
+/.docker-sync
+/.warp/docker/volumes
+/.warp/docker/dumps
+/.warp/setup
+/.warp/lib
+/.warp/bin
+/.warp/docker/config/php/ext-xdebug.ini
+/.warp/docker/config/php/ext-ioncube.ini
+# FRAMEWORK WARP
+
+# Start Deployment process
+!Jenkinsfile
+swg_ci.yml
+/swg_ci.yml
+# End Deployment process
+# Start Automation Tests
+!/test
+!/test/**
+# End Automation Tests
+# Start Performance Tests
+!/test/performance
+!/test/performance/**
+# End Performance Tests
+# Start Stress Tests
+!/test/stress
+!/test/stress/**
+# End Stress Tests
+
+# RELEASE
+!release_version.json
+!CHANGELOG.md
